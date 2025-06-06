@@ -34,9 +34,9 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-photo = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
-cpphoto = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
-appxzip = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
+photo = "https://files.catbox.moe/kgqhxl.jpg"
+cpphoto = "https://files.catbox.moe/kgqhxl.jpg"
+appxzip = "https://files.catbox.moe/kgqhxl.jpg"
 my_name = "乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ💀"
 CHANNEL_ID = "-1002607772171"##change it with your channel 🆔 
 
@@ -254,7 +254,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 𝗦𝗣𝗜𝗗𝗬™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -692,7 +692,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝗦𝗣𝗜𝗗𝗬™🇮🇳"
+    credit = f"乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™🇮🇳"
     
     try:    
         with open(x, "r") as f:
@@ -763,9 +763,9 @@ async def txt_handler(bot: Client, m: Message):
     await editable.delete()
 
     thumb = input6.text
-    if thumb.startswith("http://") or thumb.startswith("https://"):
-        getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
-        thumb = "thumb.jpg"
+    if thumb.startswith("https://files.catbox.moe/kgqhxl.jpg") or thumb.startswith("https://files.catbox.moe/kgqhxl.jpg"):
+        getstatusoutput(f"wget '{thumb}' -O ''https://files.catbox.moe/kgqhxl.jpg")
+        thumb = "https://files.catbox.moe/kgqhxl.jpg"
     else:
         thumb == "no"
 
@@ -1007,9 +1007,9 @@ async def txt_handler(bot: Client, m: Message):
     await editable.delete()
 
     thumb = input6.text
-    if thumb.startswith("http://") or thumb.startswith("https://"):
+    if thumb.startswith("https://files.catbox.moe/kgqhxl.jpg") or thumb.startswith("https://files.catbox.moe/kgqhxl.jpg"):
         getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
-        thumb = "thumb.jpg"
+        thumb = "https://files.catbox.moe/kgqhxl.jpg"
     else:
         thumb == "no"
 
@@ -1190,8 +1190,8 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰Done🔰")
-    await m.reply_text("✨Thankyou For Choosing")
+    await m.reply_text("🔰𝐷𝑂𝑁𝐸🔰")
+    await m.reply_text("✨💫😎 𝑅𝐸𝐴𝐶𝑇𝐼𝑂𝑁 𝐾𝑂𝑁 𝐷𝐸𝐺𝐴 😎💫")
 
 # m3u8
 
@@ -1202,7 +1202,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝗦𝗣𝗜𝗗𝗬™🇮🇳"
+    credit = f"乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™🇮🇳"
     try:    
         with open(x, "r") as f:
             content = f.read()
@@ -1255,7 +1255,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 𝗦𝗣𝗜𝗗𝗬™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -1280,9 +1280,9 @@ async def txt_handler(bot: Client, m: Message):
     await editable.delete()
 
     thumb = input6.text
-    if thumb.startswith("http://") or thumb.startswith("https://"):
-        getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
-        thumb = "thumb.jpg"
+    if thumb.startswith("https://files.catbox.moe/kgqhxl.jpg") or thumb.startswith("https://files.catbox.moe/kgqhxl.jpg"):
+        getstatusoutput(f"wget '{thumb}' -O ''https://files.catbox.moe/kgqhxl.jpg")
+        thumb = "https://files.catbox.moe/kgqhxl.jpg"
     else:
         thumb == "no"
 
@@ -1451,8 +1451,8 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰Done🔰")
-    await m.reply_text("✨Thankyou For Choosing")
+    await m.reply_text("🔰𝐷𝑂𝑁𝐸🔰")
+    await m.reply_text("✨💫😎 𝑅𝐸𝐴𝐶𝑇𝐼𝑂𝑁 𝐾𝑂𝑁 𝐷𝐸𝐺𝐴 😎💫")
 
 
 @bot.on_message(filters.command(["alpha"]))
@@ -1462,7 +1462,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝗦𝗣𝗜𝗗𝗬™🇮🇳"
+    credit = f"乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™🇮🇳"
     try:    
         with open(x, "r") as f:
             content = f.read()
@@ -1532,9 +1532,9 @@ async def txt_handler(bot: Client, m: Message):
     await editable.delete()
 
     thumb = input6.text
-    if thumb.startswith("http://") or thumb.startswith("https://"):
-        getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
-        thumb = "thumb.jpg"
+    if thumb.startswith("https://files.catbox.moe/kgqhxl.jpg") or thumb.startswith("https://files.catbox.moe/kgqhxl.jpg"):
+        getstatusoutput(f"wget '{thumb}' -O 'https://files.catbox.moe/kgqhxl.jpg'")
+        thumb = "https://files.catbox.moe/kgqhxl.jpg"
     else:
         thumb == "no"
 
