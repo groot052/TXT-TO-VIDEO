@@ -109,7 +109,7 @@ async def main():
         
 class Data:
     START = (
-        "🌟 Welcome {0}! 🌟\n\n"
+        "🌟 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑹𝑨𝑱𝑷𝑼𝑻 𝑻𝑿𝑻 𝑼𝑷𝑳𝑶𝑨𝑫𝑬𝑹 𝑩𝑶𝑻 {0}! 🌟\n\n"
     )
 # Define the start command handler
 @bot.on_message(filters.command("start"))
@@ -250,12 +250,12 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     except Exception:
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     
     await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
-    input3: Message = await bot.listen(editable.chat.id)
+    input3: Message = await bot.@SIMPLE_THAKURlisten(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == 'de':
@@ -742,11 +742,11 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     except Exception:
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : RAJPUT JI™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -847,8 +847,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} RAJPUT {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} RAJPUT JI.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @SIMPLE_THAKUR {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @SIMPLE_THAKUR.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
                     
                 
                 if "drive" in url:
@@ -910,7 +910,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ RAJPUT JI"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -987,9 +987,9 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     except Exception:
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     
     await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
@@ -1110,8 +1110,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**<pre><code>🎞️ 𝐕𝐈𝐃_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} {res} .mkv</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━</code></pre>'
-                cc1 = f'**<pre><code>📁 𝐏𝐃𝐅_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} .pdf</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━</code></pre>'
+                cc = f'**<pre><code>🎞️ 𝐕𝐈𝐃_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} @SIMPLE_THAKUR {res} .mkv</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━</code></pre>'
+                cc1 = f'**<pre><code>📁 𝐏𝐃𝐅_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} @SIMPLE_THAKUR.pdf</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━</code></pre>'
                     
                 
                 if "drive" in url:
@@ -1251,9 +1251,9 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     except Exception:
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     
     await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
@@ -1371,8 +1371,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n Title: {name1} @Spidy_Universe {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ💀✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n Title: {name1} @Spidy_Universe.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ💀✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n Title: {name1} @SIMPLE_THAKUR {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n Title: {name1} @SIMPLE_THAKUR.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
                     
                 
                 if "drive" in url:
@@ -1434,7 +1434,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ RAJPUT JI"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -1511,9 +1511,9 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     except Exception:
-            res = "UN"
+            res = "@SIMPLE_THAKUR"
     
     await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
@@ -1632,8 +1632,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @Spidy_Universe {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @Spidy_Universe.pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @SIMPLE_THAKUR {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @SIMPLE_THAKUR.pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
                     
                 
                 if "drive" in url:
