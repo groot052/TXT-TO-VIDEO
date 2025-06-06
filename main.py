@@ -255,7 +255,7 @@ async def txt_handler(bot: Client, m: Message):
             res = "@SIMPLE_THAKUR"
     
     await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
-    input3: Message = await bot.@SIMPLE_THAKURlisten(editable.chat.id)
+    input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == 'de':
