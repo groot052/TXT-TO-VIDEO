@@ -1,4 +1,4 @@
-# Don't Remove Credit Telegram - @SIMPLE_THAKUR
+# Don't Remove Credit Telegram - @StudyXashish1
 import time
 import math
 import os
