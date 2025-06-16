@@ -132,28 +132,28 @@ async def start(client: Client, msg: Message):
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
         "Loading features... ⏳\n\n"
-        "Progress: [🟥🟥🟥⬜⬜⬜⬜⬜⬜] 25%\n\n"
+        "Progress: [😎😎😎💔💔💔💔💔💔] 25%\n\n"
     )
     
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
         "This may take a moment, sit back and relax! 😊\n\n"
-        "Progress: [🟧🟧🟧🟧🟧⬜⬜⬜⬜] 50%\n\n"
+        "Progress: [😎😎😎😎😎💔💔💔💔💔] 50%\n\n"
     )
 
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
         "Checking Bot Status... 🔍\n\n"
-        "Progress: [🟨🟨🟨🟨🟨🟨🟨⬜⬜] 75%\n\n"
+        "Progress: [😎😎😎😎😎😎😎😎💔💔] 75%\n\n"
     )
 
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
         "Checking status Ok... Command Nhi Bataunga **Bot Made BY 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**🔍\n\n"
-        "Progress:[🟩🟩🟩🟩🟩🟩🟩🟩🟩] 100%\n\n"
+        "Progress:[😎😎😎😎😎😎😎😎😎😎] 100%\n\n"
     )
 
 @bot.on_message(filters.command(["stop"]) )
@@ -250,9 +250,9 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "@SIMPLE_THAKUR"
+            res = "𝗧𝗛𝗔𝗞𝗨𝗥"
     except Exception:
-            res = "@SIMPLE_THAKUR"
+            res = "𝗧𝗛𝗔𝗞𝗨𝗥"
     
     await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
@@ -742,9 +742,9 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "@SIMPLE_THAKUR"
+            res = "𝗧𝗛𝗔𝗞𝗨𝗧"
     except Exception:
-            res = "@SIMPLE_THAKUR"
+            res = "𝗧𝗛𝗔𝗞𝗨𝗥"
     
     await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
@@ -847,8 +847,9 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @SIMPLE_THAKUR {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @SIMPLE_THAKUR.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 .pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+    
                     
                 
                 if "drive" in url:
@@ -1371,8 +1372,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n Title: {name1} @SIMPLE_THAKUR {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n Title: {name1} @SIMPLE_THAKUR.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n Title: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n Title: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
                     
                 
                 if "drive" in url:
@@ -1695,7 +1696,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ RAJPUT JI"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝗧𝗛𝗔𝗞𝗨𝗥"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
