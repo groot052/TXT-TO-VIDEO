@@ -846,7 +846,7 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
-                http://t.me/StudyXashish302
+            
                 cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️(http://t.me/StudyXashish302)✦━━━━━**'
                 cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 .pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️(t.me/StudyXashish302)✦━━━━━**'
     
