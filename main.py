@@ -250,9 +250,9 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "𝗧𝗛𝗔𝗞𝗨𝗥"(http://t.me/StudyXashish302)
+            res = "𝗧𝗛𝗔𝗞𝗨𝗥"
     except Exception:
-            res = "𝗧𝗛𝗔𝗞𝗨𝗥"(http://t.me/StudyXashish302)
+            res = "𝗧𝗛𝗔𝗞𝗨𝗥"
     
     await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻(http://t.me/StudyXashish302)**")
     input3: Message = await bot.listen(editable.chat.id)
