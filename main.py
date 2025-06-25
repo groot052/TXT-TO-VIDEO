@@ -152,7 +152,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... Command Nhi Bataunga **Bot Made BY 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**🔍\n\n"
+        "Checking status Ok... Command Nhi Bataunga **Bot Made BY 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻(http://t.me/StudyXashish302)**🔍\n\n"
         "Progress:[🔵🔵🔵🔵🔵🔵🔵🔵🔵] 100%\n\n"
     )
 
@@ -250,11 +250,11 @@ async def txt_handler(bot: Client, m: Message):
         elif raw_text2 == "1080":
             res = "1080x1920" 
         else: 
-            res = "𝗧𝗛𝗔𝗞𝗨𝗥"
+            res = "𝗧𝗛𝗔𝗞𝗨𝗥"(http://t.me/StudyXashish302)
     except Exception:
-            res = "𝗧𝗛𝗔𝗞𝗨𝗥"
+            res = "𝗧𝗛𝗔𝗞𝗨𝗥"(http://t.me/StudyXashish302)
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻(http://t.me/StudyXashish302)**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -746,7 +746,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "𝗧𝗛𝗔𝗞𝗨𝗥"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 乂 𝐌𝐑 ᭄ 𝐀𝐒𝐇𝐈𝐒𝐇 メ™👨🏻‍💻(http://t.me/StudyXashish302)**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -846,9 +846,9 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
-                
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 .pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                http://t.me/StudyXashish302
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️(http://t.me/StudyXashish302)✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 .pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️(t.me/StudyXashish302)✦━━━━━**'
     
                     
                 
@@ -1111,8 +1111,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**<pre><code>🎞️ 𝐕𝐈𝐃_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} @SIMPLE_THAKUR {res} .mkv</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━</code></pre>'
-                cc1 = f'**<pre><code>📁 𝐏𝐃𝐅_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} @SIMPLE_THAKUR.pdf</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━</code></pre>'
+                cc = f'**<pre><code>🎞️ 𝐕𝐈𝐃_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} @SIMPLE_THAKUR {res} .mkv</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️(http://t.me/StudyXashish302)✦━━━━━</code></pre>'
+                cc1 = f'**<pre><code>📁 𝐏𝐃𝐅_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} @SIMPLE_THAKUR.pdf</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️(t.me/StudyXashish302)✦━━━━━</code></pre>'
                     
                 
                 if "drive" in url:
@@ -1372,8 +1372,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n Title: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n Title: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n Title: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️(http://t.me/StudyXashish302)✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n Title: {name1} 𝗧𝗛𝗔𝗞𝗨𝗥.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️(http://t.me/StudyXashish302)✦━━━━━**'
                     
                 
                 if "drive" in url:
@@ -1516,7 +1516,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "@SIMPLE_THAKUR"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️™👨🏻‍💻(http://t.me/StudyXashish302)**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -1633,8 +1633,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @SIMPLE_THAKUR {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @SIMPLE_THAKUR.pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @STUDYXASHISH(http://t.me/StudyXashish302) {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
+                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} @STUDYXASHISH(http://t.me/StudyXashish302).pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦𝐓𝐇𝐀𝐊𝐔𝐑 𝐒𝐀𝐇𝐀𝐁❤️✦━━━━━**'
                     
                 
                 if "drive" in url:
